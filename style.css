@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.html {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: blueviolet;
+    color: #fffffc;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 60px;
+    top: 0;
+   display: inline-block;
+}
+
+.header nav {
+    float: right;
+    position: relative;
+    top: 40px;
+    right: 90px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header nav ul {
+    list-style-type: none;
+
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+a {
+    color:#b4d5f0;
+    text-decoration: none;
+}
+
+img {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.content {
+    clear:both;
+    /* float:left; */
+    font-size: x-large;
+    text-align: center;
+    width: 35%;
+    margin-right:2.5%;
+   display: inline-block;
+   vertical-align: top;
+}
+
+.content h2 {
+    text-align:center;
+    color:#e3e31a;
+
+}
+
+.card {
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 50px;
+    margin-left: 30px;
+    padding: 15px;
+    box-shadow: 10px 10px 5px; 
+
+}
+
+
+.Container {
+    /* margin-left: 40%; */
+    /* float:right; */
+    /* position: relative; */
+    top: 20%;
+    border-style: dotted;
+    width:62%;
+    display: inline-block;
+}
+.Container aside p {
+    margin-right:100%;
+    float: left;
+    width: 20%;
+    Height: 100%;
+    text-align: left;
+
+}
+
